@@ -165,3 +165,101 @@ print(vics_list[5])
 #Replace 'cool ranch doritos' with 'carrot cake' and print the list.
 vics_list[3] = 'carrot cake'
 print(vics_list)
+
+#8 Variables with a Dictionary value
+#Declare a variable named car and create the following key-value pairs:
+# - key: brand string value: Tesla,
+# - key: model string value: Model 3,
+# - key: price number value: 35000,
+# - key: color string value: red,
+# - key: production boolean value: False,
+# - key: features list value: moon roof, leather seats, iphone docker
+
+#Print the car variable.
+car = {
+    'brand': 'Tesla',
+    'model': 'Model 3',
+    'price': 35000,
+    'color': 'red',
+    'production': False,
+    'features': ['moon roof', 'leather seats', 'iphone docker']
+}
+print(car)
+
+#Declare a variable named footwear and create the following key-value pairs:
+# - key: brand string value: Vivo Barefoot,
+# - key: url string value: https://www.vivobarefoot.com/us,
+# - key: gender string value: Mens,
+# - key: type string value: Ababa Canvas,
+# - key: price number value: 80,
+# - key: color list value: tan, black stripes, gum
+# - key: ordered boolean value: True
+
+#Print the footwear variable.
+
+footwear = {
+    'brand': 'Vivo Barefoot',
+    'url': 'https://www.vivobarefoot.com/us',
+    'gender': 'Mens',
+    'type': 'Ababa Canvas',
+    'price': 80,
+    'color': ['tan', 'black stripes', 'gum'],
+    'ordered': True
+}
+print(footwear)
+
+#Declare a variable named bank and create the following key-value pairs:
+# - key: name  string value: First Hawaiian Bank,
+# - key: employees number value: 2200,
+# - key: headquarters string value: Honolulu,
+# - key: revenue number value: 700000000,
+# - key: nasdaq string value: FHB,
+# - key: products list value: savings, loans, trust, wealth management,
+# - key: executive dictionary value: name: Robert Harrison, title CEO, salary: 2000000
+
+#Print the bank variable.
+bank = {
+    'name': 'First Hawaiian Bank',
+    'employees': 2200,
+    'headquarters': 'Honolulu',
+    'revenue': 700000000,
+    'nasdaq': 'FHB',
+    'products': ['savings', 'loans', 'trust', 'wealth management'],
+    'executive': {'name': 'Robert Harrison', 'title': 'CEO', 'salary': 2000000}
+}
+print(bank)
+
+#Declare a variable pandas and assign it an EMPTY dictionary.
+#You will add the following key-value pairs:
+# - key: name string value: Panda Express
+# - key: restaurants number value: 2000
+# - key: cuisine string value: Gourmet Chinese Food
+# - key: menu list value: Orange Chicken, Walnut Shrimp, Sweet and Sour pork
+# - key: highest_revenue string value: Ala Moana Center Food Court
+
+#Print the pandas variable.
+pandas = {}
+pandas['name'] = 'Panda Express'
+pandas['restaurants'] = 2000
+pandas['cuisine'] = 'Gourmet Chinese Food'
+pandas['menu'] = ['Orange Chicken', 'Walnut Shrimp', 'Sweet and Sour Pork']
+pandas['highest_revenue'] = 'Ala Moana Shopping Center Food Court'
+print(pandas)
+
+#Declare a variable named bucket_list and assign it to an EMPTY dictionary.
+#You will add the following key-value pairs:
+# - key: travel string value of your choice
+# - key: learn string value of your choice
+# - key: weight number value of your choice
+# - key: to_dos list value of your choice
+# - key: meet_person string value of your choice  
+
+#Print the bucket_list variable.
+bucket_list = {}
+bucket_list['travel'] = 'South Pacific'
+bucket_list['learn'] = 'Programming'
+bucket_list['weight'] = 168
+bucket_list['to_dos'] = ['Hike the Inca Trail to Machu Picchu', 'Visit Angkor Wat','Cruise on a junk boat through Halong Bay']
+bucket_list['meet_person'] = 'President Obama'
+print(bucket_list)
+
