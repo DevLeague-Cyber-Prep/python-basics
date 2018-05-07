@@ -6,7 +6,7 @@
 #Print each variable and test your code in the terminal using the Python interpreter
 
 #example
-greeting = 'Hello Prepster';
+greeting = 'Hello Prepster'
 print(greeting); #this should print 'Hello Prepster'
 
 #1 Variables with a String value
@@ -149,6 +149,14 @@ print(hamajang)
 dynamic_duos = [['gin', 'tonic'], ['peanut butter', 'celery'], ['bacon', 'cheeseburger']]
 print(dynamic_duos)
 
+#Print the following:
+#Gin
+print(dynamic_duos[0][0])
+#peanut butter
+print(dynamic_duos[1][0])
+#cheeseburger
+print(dynamic_duos[2][1])
+
 #7 Accessing values in List
 vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch doritos', 'oreos', 'Safeway fried chicken', 'Morning Glass coffee']
 
@@ -165,6 +173,8 @@ print(vics_list[5])
 #Replace 'cool ranch doritos' with 'carrot cake' and print the list.
 vics_list[3] = 'carrot cake'
 print(vics_list)
+#Print the last element in the list using -1
+print(vics_list[-1])
 
 #8 Variables with a Dictionary value
 #Declare a variable named car and create the following key-value pairs:
@@ -263,3 +273,61 @@ bucket_list['to_dos'] = ['Hike the Inca Trail to Machu Picchu', 'Visit Angkor Wa
 bucket_list['meet_person'] = 'President Obama'
 print(bucket_list)
 
+#9 Variable with a Tuple value
+#Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
+
+#Print the bruce_bio variable.
+bruce_bio = ('Bruce Lee', 'male', 32, 'San Fransico', ['Kung-Fu Master', 'actor', 'philosopher'] )
+print(bruce_bio)
+
+#Declare a variable named movies and assign a tuple containing the following values: [The Big Boss, 1971],[Fist of Fury, 1972], [The Way of the Dragon, 1972], [The Game of Death, 1972]
+
+#Print the movies variable.
+movies = (['The Big Boss', 1971],['Fist of Fury', 1972], ['The Way of the Dragon', 1972], ['The Game of Death', 1972])
+print(movies)
+
+#Declare a variable named updated_bio and add the bruce_bio and movies tuples together. Print the updated_bio variable.
+updated_bio = bruce_bio + movies
+print(updated_bio)
+
+#Print the following values:
+#The length of the updated_bio tuple
+print(len(updated_bio))
+#Bruce Lee
+print(updated_bio[0])
+#Index position 1
+print(updated_bio[1])
+#['Game of Death', 1972]
+print(updated_bio[8])
+#philosopher
+print(updated_bio[4][2])
+#1971
+print(updated_bio[5][1])
+#The Way of the Dragon
+print(updated_bio[7][0])
+#Fist of Fury
+print(updated_bio[6][0])
+#The last value using -1
+print(updated_bio[-1])
+#Game of Death using -1
+print(updated_bio[-1][0])
+
+#10 Variables with a Boolean value
+#Declare the following variables and assign either a True or false value for each.
+#female, american, likes_coding, is_hungry, has_a_dog
+
+#Print each variable that you declare.
+female = False
+print(female)
+
+american = True
+print(american)
+
+likes_coding = True
+print(likes_coding)
+
+is_hungry = False
+print(is_hungry)
+
+has_a_dog = False
+print(has_a_dog)
