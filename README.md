@@ -11,6 +11,6 @@
     - `$ ls` 
     - `cd python-basics`
 4. Open the python-basics assignment in text-editor and write your code in the `exercises.py` file.
-5. Run node in your terminal to test your code:
+5. Run python in your terminal to test your code:
    - `$ cd python-basics`
    - `python exercises.py` (don't forget to print your work)
